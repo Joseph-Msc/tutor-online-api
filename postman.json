@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "dca232aa-90f0-4884-9222-1a7234500a1b",
+		"name": "Proof of concept",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.tutor-online.com",
+					"protocol": "https",
+					"host": [
+						"api",
+						"tutor-online",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/friends",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.tutor-online.com/friends",
+					"protocol": "https",
+					"host": [
+						"api",
+						"tutor-online",
+						"com"
+					],
+					"path": [
+						"friends"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/friends/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.tutor-online.com/friends/1",
+					"protocol": "https",
+					"host": [
+						"api",
+						"tutor-online",
+						"com"
+					],
+					"path": [
+						"friends",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/friends/:id/family-members",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.tutor-online.com/friends/1/family-members",
+					"protocol": "https",
+					"host": [
+						"api",
+						"tutor-online",
+						"com"
+					],
+					"path": [
+						"friends",
+						"1",
+						"family-members"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/family_members",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.tutor-online.com/family_members",
+					"protocol": "https",
+					"host": [
+						"api",
+						"tutor-online",
+						"com"
+					],
+					"path": [
+						"family_members"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "/family_members/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.tutor-online.com/family_members/8",
+					"protocol": "https",
+					"host": [
+						"api",
+						"tutor-online",
+						"com"
+					],
+					"path": [
+						"family_members",
+						"8"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
