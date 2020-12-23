@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1931dc5-1dd0-4b74-893b-72468d71fad1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4.10" />
+  <component name="ProjectId" id="1hSRL1ikxAdC1yOTLKX9ydsJdbh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.12.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.11.10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="ts.external.directory.path" value="W:\PortableApps\PhpStorm\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="W:\public_html\tutor-online\api" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="W:\public_html\tutor-online\api\services" />
+      <recent name="W:\public_html\tutor-online\api" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1931dc5-1dd0-4b74-893b-72468d71fad1" name="Default Changelist" comment="" />
+      <created>1600002450858</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600002450858</updated>
+      <workItem from="1600002452398" duration="3419000" />
+      <workItem from="1600706082615" duration="1722000" />
+      <workItem from="1600859925779" duration="10000" />
+      <workItem from="1600859952869" duration="488000" />
+      <workItem from="1600860903099" duration="669000" />
+      <workItem from="1601222727062" duration="3687000" />
+      <workItem from="1601310830308" duration="1465000" />
+      <workItem from="1601420529552" duration="924000" />
+      <workItem from="1601811022327" duration="1649000" />
+      <workItem from="1603014843390" duration="4661000" />
+      <workItem from="1603277897661" duration="45000" />
+      <workItem from="1603277948859" duration="5330000" />
+      <workItem from="1603623661614" duration="1257000" />
+      <workItem from="1604074043552" duration="1714000" />
+      <workItem from="1604854996038" duration="4307000" />
+      <workItem from="1604859316898" duration="27000" />
+      <workItem from="1607782534812" duration="314000" />
+      <workItem from="1607782877192" duration="2000" />
+      <workItem from="1607783050193" duration="3142000" />
+      <workItem from="1608301993863" duration="122000" />
+      <workItem from="1608372994069" duration="7064000" />
+      <workItem from="1608481821226" duration="4144000" />
+      <workItem from="1608565220373" duration="3952000" />
+      <workItem from="1608724256694" duration="1906000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="289" y="119" key="#CLI_Interpreters" timestamp="1600860427143">
+      <screen x="0" y="0" width="1664" height="1069" />
+    </state>
+    <state x="289" y="119" key="#CLI_Interpreters/0.0.1664.1069@0.0.1664.1069" timestamp="1600860427143" />
+    <state x="3992" y="540" key="#Plugins" timestamp="1603277957887">
+      <screen x="3440" y="359" width="1920" height="1080" />
+    </state>
+    <state x="3992" y="540" key="#Plugins/0.0.3440.1400/3440.359.1920.1080@3440.359.1920.1080" timestamp="1603277957887" />
+    <state x="489" y="205" key="FileChooserDialogImpl" timestamp="1600861556461">
+      <screen x="0" y="0" width="1664" height="1069" />
+    </state>
+    <state x="489" y="205" key="FileChooserDialogImpl/0.0.1664.1069@0.0.1664.1069" timestamp="1600861556461" />
+    <state x="210" y="109" key="SettingsEditor" timestamp="1600861573873">
+      <screen x="0" y="0" width="1664" height="1069" />
+    </state>
+    <state x="210" y="109" key="SettingsEditor/0.0.1664.1069@0.0.1664.1069" timestamp="1600861573873" />
+    <state x="100" y="100" width="1070" height="869" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601420853858">
+      <screen x="0" y="0" width="1664" height="1069" />
+    </state>
+    <state x="100" y="100" width="1070" height="869" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1664.1069@0.0.1664.1069" timestamp="1601420853858" />
+    <state x="426" y="272" key="jetbrains.nodejs.interpreters-dialog" timestamp="1600861114434">
+      <screen x="0" y="0" width="1664" height="1069" />
+    </state>
+    <state x="426" y="272" key="jetbrains.nodejs.interpreters-dialog/0.0.1664.1069@0.0.1664.1069" timestamp="1600861114434" />
+  </component>
+</project>
