@@ -27,6 +27,18 @@ class Routes {
                 'method' => 'entities',
                 'args' => [':friendId'],
                 'argsTypes' => ['numeric']
+            ],
+            'family-members' => [
+                'path' => '/family-member/entities.php',
+                'class' => 'FamilyMembers',
+                'method' => 'entities',
+            ],
+            'family-members/:FamilyMemberId' => [
+                'path' => '/family-member/entity.php',
+                'class' => 'FamilyMember',
+                'method' => 'entity',
+                'args' => [':FamilyMemberId'],
+                'argsTypes' => ['numeric']
             ]
         ];
     }
