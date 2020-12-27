@@ -18,14 +18,20 @@ class Response
         static::send(
             array_merge(
                 [
-                    'error' => 'File not found!'
+                    'error' => 'Not found!'
                 ],
                 $arg
             )
         );
     }
 
-    final public static function error500($msg): void {
+    final public static function noContent(): void
+    {
+        header('HTTP/1.0 204 No Content');
+    }
+
+    final public static function error500($msg): void
+    {
         static::send($msg);
     }
 }

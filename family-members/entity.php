@@ -5,7 +5,7 @@ class FamilyMember {
         global $mysqli;
         try {
             $result = $mysqli->getConnection()
-                ->query('SELECT * FROM family_friends WHERE id = ' . $id);
+                ->query('SELECT * FROM family_members WHERE id = ' . $id);
             $results = $result->fetch_assoc();
 
             if($results) {

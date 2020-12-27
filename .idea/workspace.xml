@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1931dc5-1dd0-4b74-893b-72468d71fad1" name="Default Changelist" comment="" />
+    <list default="true" id="e1931dc5-1dd0-4b74-893b-72468d71fad1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/family-members/entities.php" beforeDir="false" afterPath="$PROJECT_DIR$/family-members/entities.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/family-members/entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/family-members/entity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friends/entities.php" beforeDir="false" afterPath="$PROJECT_DIR$/friends/entities.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/friends/entity.php" beforeDir="false" afterPath="$PROJECT_DIR$/friends/entity.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/response.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/router.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/router.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,13 +40,10 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4.10" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0.0" />
   <component name="ProjectId" id="1hSRL1ikxAdC1yOTLKX9ydsJdbh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -29,10 +56,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.12.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.11.10" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../PortableApps/Laragon/bin/php/php-8.0.0-Win32-vs16-x64/php.exe" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="SQL Resolution Scopes" />
     <property name="ts.external.directory.path" value="W:\PortableApps\PhpStorm\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -76,40 +103,35 @@
       <workItem from="1608372994069" duration="7064000" />
       <workItem from="1608481821226" duration="4144000" />
       <workItem from="1608565220373" duration="3952000" />
-      <workItem from="1608724256694" duration="2613000" />
+      <workItem from="1608724256694" duration="4621000" />
+      <workItem from="1608998793443" duration="5213000" />
+      <workItem from="1609009019461" duration="62000" />
+      <workItem from="1609009232051" duration="19000" />
+      <workItem from="1609009259011" duration="1219000" />
+      <workItem from="1609081432377" duration="2756000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="289" y="119" key="#CLI_Interpreters" timestamp="1600860427143">
-      <screen x="0" y="0" width="1664" height="1069" />
-    </state>
-    <state x="289" y="119" key="#CLI_Interpreters/0.0.1664.1069@0.0.1664.1069" timestamp="1600860427143" />
-    <state x="3992" y="540" key="#Plugins" timestamp="1603277957887">
-      <screen x="3440" y="359" width="1920" height="1080" />
-    </state>
-    <state x="3992" y="540" key="#Plugins/0.0.3440.1400/3440.359.1920.1080@3440.359.1920.1080" timestamp="1603277957887" />
-    <state x="489" y="205" key="FileChooserDialogImpl" timestamp="1600861556461">
-      <screen x="0" y="0" width="1664" height="1069" />
-    </state>
-    <state x="489" y="205" key="FileChooserDialogImpl/0.0.1664.1069@0.0.1664.1069" timestamp="1600861556461" />
-    <state x="210" y="109" key="SettingsEditor" timestamp="1600861573873">
-      <screen x="0" y="0" width="1664" height="1069" />
-    </state>
-    <state x="210" y="109" key="SettingsEditor/0.0.1664.1069@0.0.1664.1069" timestamp="1600861573873" />
-    <state x="100" y="100" width="1070" height="869" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1601420853858">
-      <screen x="0" y="0" width="1664" height="1069" />
-    </state>
-    <state x="100" y="100" width="1070" height="869" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1664.1069@0.0.1664.1069" timestamp="1601420853858" />
-    <state x="426" y="272" key="jetbrains.nodejs.interpreters-dialog" timestamp="1600861114434">
-      <screen x="0" y="0" width="1664" height="1069" />
-    </state>
-    <state x="426" y="272" key="jetbrains.nodejs.interpreters-dialog/0.0.1664.1069@0.0.1664.1069" timestamp="1600861114434" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

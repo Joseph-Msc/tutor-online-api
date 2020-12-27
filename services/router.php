@@ -21,35 +21,38 @@ class Router
         $matchingArgs = [];
 
         foreach ($routes as $key => $array) {
-            $urlArray = explode('/', $url);
-            $keyArray = explode('/', $key);
-            if (count($urlArray) === count($keyArray)) {
-                $match = false;
-                foreach ($urlArray as $keyNumber => $valueStr) {
-                    if ($valueStr === $keyArray[$keyNumber]) {
-                        $match = true;
-                    } else if (!isset($array['args']) && !isset($array['argsTypes'])) {
-                        $match = false;
-                    } else {
-                        $arg = array_shift($array['args']);
-                        $type = array_shift($array['argsTypes']);
-                        $functionName = 'is_' . $type;
-                        if (
-                            $arg === $keyArray[$keyNumber]
-                            &&
-                            $functionName($valueStr)
-                        ) {
-                            $matchingArgs[] = $valueStr;
+            if (isset($array[$_SERVER['REQUEST_METHOD']])) {
+                $arrayByMethod = $array[$_SERVER['REQUEST_METHOD']];
+                $urlArray = explode('/', $url);
+                $keyArray = explode('/', $key);
+                if (count($urlArray) === count($keyArray)) {
+                    $match = false;
+                    foreach ($urlArray as $keyNumber => $valueStr) {
+                        if ($valueStr === $keyArray[$keyNumber]) {
                             $match = true;
-                        } else {
+                        } else if (!isset($arrayByMethod['args']) && !isset($arrayByMethod['argsTypes'])) {
                             $match = false;
+                        } else {
+                            $arg = array_shift($arrayByMethod['args']);
+                            $type = array_shift($arrayByMethod['argsTypes']);
+                            $functionName = 'is_' . $type;
+                            if (
+                                $arg === $keyArray[$keyNumber]
+                                &&
+                                $functionName($valueStr)
+                            ) {
+                                $matchingArgs[] = $valueStr;
+                                $match = true;
+                            } else {
+                                $match = false;
+                            }
                         }
                     }
-                }
-                if ($match === true) {
-                    $matchingKey = $key;
-                    $matchingArray = $array;
-                    $matchingURLArray = $urlArray;
+                    if ($match === true) {
+                        $matchingKey = $key;
+                        $matchingArray = $arrayByMethod;
+                        $matchingURLArray = $urlArray;
+                    }
                 }
             }
         }
